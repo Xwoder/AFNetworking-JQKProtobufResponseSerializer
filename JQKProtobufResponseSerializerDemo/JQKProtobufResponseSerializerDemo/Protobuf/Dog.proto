@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package com.xwoder.jqkprotobufresponseserializer;
+
+option objc_class_prefix = "JQK";
+
+message Dog {
+  string name = 1;
+}

@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+package com.xwoder.jqkprotobufresponseserializer;
+
+import "Dog.proto";
+
+option objc_class_prefix = "JQK";
+
+enum Sex {
+    Male = 0;
+    Female = 1;
+}
+
+enum Location {
+    Asia = 0;
+    Antarctica = 1;
+    Oceania = 2;
+    Europe = 3;
+    Africa = 4;
+    SouthAmerica = 5;
+    NorthAmerica = 6;
+}
+
+message Person {
+    string name = 1;
+    Dog dog = 2;
+    Sex sex = 3;
+    Location loc = 4;
+}
