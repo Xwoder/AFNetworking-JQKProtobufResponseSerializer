@@ -7,7 +7,7 @@
 //
 
 #import "JQKProtobufResponseSerializer.h"
-#import <GPBMessage.h>
+#import <Protobuf/GPBMessage.h>
 
 NSString * const JQKURLResponseSerializationErrorDomain = @"com.xwoder.error.serialization.response";
 
